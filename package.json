@@ -1,0 +1,23 @@
+{
+	"name": "myWebpack",
+	"version": "1.0.0",
+	"main": "myWebpack.js",
+	"scripts": {
+		"build": "rm -rf dist.js && node myWebpack.js > dist.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"description": "",
+	"dependencies": {
+		"@babel/core": "^7.18.0",
+		"@babel/parser": "^7.18.0",
+		"@babel/traverse": "^7.18.0",
+		"highlight": "^0.2.4",
+		"js-beautify": "^1.14.3"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.18.0"
+	}
+}
